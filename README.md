@@ -1,8 +1,4 @@
-Here's an updated **`README.md`** with the correct project structure, tailored to your actual repository:
 
----
-
-```markdown
 # 🛡️ SentryLure: AI-Based Phishing Detection System
 
 SentryLure is an intelligent phishing detection tool designed to help users identify and avoid fraudulent emails, websites, and messages attempting to steal sensitive information. Using Natural Language Processing (NLP) and Machine Learning (ML) techniques, SentryLure detects suspicious content with high accuracy.
@@ -40,7 +36,7 @@ SentryLure is an intelligent phishing detection tool designed to help users iden
 
 ## 📁 Project Structure
 
-```
+
 
 sentrylure-phish-guard/
 ├── public/                 # Static assets (favicon, HTML template)
@@ -60,26 +56,23 @@ sentrylure-phish-guard/
 ├── tsconfig.node.json      # TS config for Node tools
 └── vite.config.ts          # Vite build configuration
 
-```
 
 ---
 
 ## 🧪 Example Use Case
 
 **Input:**
-```
+
 
 "Your account has been flagged. Log in now to verify your identity: [http://secure-login-update.com](http://secure-login-update.com)"
 
-```
 
 **Output:**
-```
+
 
 🚨 Phishing detected!
 ⚠️ Be cautious — suspicious URL and urgent language.
 
-```
 
 ---
 
