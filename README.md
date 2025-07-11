@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+🛡️ SentryLure: AI-Based Phishing Detection System
+SentryLure is an intelligent phishing detection tool designed to help users identify and avoid fraudulent emails, websites, and messages attempting to steal sensitive information. Using natural language processing (NLP) and machine learning techniques, SentryLure detects suspicious content with high accuracy.
 
-## Project info
+🚀 Features
+Detects phishing in email texts, messages, and URLs
+Trained on real-world phishing datasets
+Fast, lightweight, and user-friendly interface
+Real-time detection with clear threat categorization
+🧠 How It Works
+Input suspicious text or URL
+Preprocessing and feature extraction
+Machine learning model classifies as phishing or safe
+Outputs prediction with optional threat explanation
+🧰 Tech Stack
+Python
+Scikit-learn / XGBoost
+Pandas & NumPy
+Flask / Gradio (for interface)
+Jupyter (for training notebook)
+📁 Project Structure
 
-**URL**: https://lovable.dev/projects/02d5e1fc-549c-446d-9c3b-18a652fc8035
+SentryLure/
+├── data/                 # Raw and preprocessed datasets
+├── models/               # Saved ML models
+├── app.py                # Inference app script
+├── train\_model.ipynb     # Model training notebook
+├── utils.py              # Helper functions for preprocessing
+├── README.md             # Project overview
 
-## How can I edit this code?
+🧪 Example Use Case
+Input:
 
-There are several ways of editing your application.
+"Your account has been flagged. Log in now to verify your identity: http://secure-login-update.com"
 
-**Use Lovable**
+Output:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/02d5e1fc-549c-446d-9c3b-18a652fc8035) and start prompting.
+🚨 Phishing detected! ⚠️ Be cautious — suspicious URL and urgent language.
 
-Changes made via Lovable will be committed automatically to this repo.
+📈 Future Scope
+Browser extension for real-time URL scanning
+Integration into email clients
+Multilingual phishing detection
+Deep learning upgrades for adaptive threat detection
+👨‍💻 Author
+Built by Rohan C Anish — combining cybersecurity awareness and AI to create safer digital experiences.
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/02d5e1fc-549c-446d-9c3b-18a652fc8035) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🔒 Stay aware. Stay secure. Let SentryLure be your digital phishing shield.
