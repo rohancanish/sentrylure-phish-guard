@@ -37,26 +37,46 @@ SentryLure is an intelligent phishing detection tool designed to help users iden
 ## 📁 Project Structure
 
 
-sentrylure-phish-guard/
-├── public/                 # Static assets (favicon, HTML template)
-├── src/                    # Frontend app source (TypeScript + React/Vue)
-│
-├── .gitignore
-├── README.md               # Project documentation
-│
-├── bun.lockb               # Bun dependency lockfile
-├── components.json         # UI component metadata
-├── eslint.config.js        # Linting configuration
-├── index.html              # HTML entry point
-├── package-lock.json       # npm lockfile
-├── package.json            # npm dependencies & scripts
-├── postcss.config.js       # PostCSS configuration
-├── tailwind.config.ts      # Tailwind CSS configuration
-│
-├── tsconfig.app.json       # TypeScript config for app
-├── tsconfig.json           # Global TypeScript config
-├── tsconfig.node.json      # TypeScript config for Node tools
-├── vite.config.ts          # Vite build configuration
+public/
+Static assets like favicon and HTML template.
+
+src/
+Frontend source code (TypeScript + React/Vue setup).
+
+Root files
+
+.gitignore – Git ignore rules
+
+README.md – Project documentation
+
+index.html – HTML entry point
+
+components.json – UI component metadata
+
+eslint.config.js – Linting configuration
+
+postcss.config.js – PostCSS configuration
+
+tailwind.config.ts – Tailwind CSS configuration
+
+vite.config.ts – Vite build configuration
+
+Dependency files
+
+package.json – Project dependencies and scripts
+
+package-lock.json – npm lockfile
+
+bun.lockb – Bun dependency lockfile
+
+TypeScript configuration
+
+tsconfig.json – Global config
+
+tsconfig.app.json – App-specific config
+
+tsconfig.node.json – Node tool config
+
 
 
 
